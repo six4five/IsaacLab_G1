@@ -1,4 +1,4 @@
-该仓库基于截止至2025年9月9日的[IsaacLab]([https://github.com/isaac-sim/IsaacLab.git](https://github.com/six4five/IsaacLab_20250909.git)与[unitree_rl_lab](https://github.com/unitreerobotics/unitree_rl_lab.git)。其中跟着unitree_rl_lab中下载的unitree_model与unitree_sdk2也是截至2025年9月9日版本的。
+该仓库基于截止至2025年9月9日的[IsaacLab](https://github.com/six4five/IsaacLab_20250909.git)与[unitree_rl_lab](https://github.com/unitreerobotics/unitree_rl_lab.git)。其中跟着unitree_rl_lab中下载的unitree_model与unitree_sdk2也是截至2025年9月9日版本的。
 
 截止该时间时，unitree_rl_lab并没有完全跟上IsaacLab的更新速度，具体错误发生在play.py中。所以此仓库的play.py文件相较于2025年9月9日unitree_rl_lab中的play.py文件有轻微差异。
 
