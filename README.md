@@ -22,3 +22,8 @@
 obs = env.get_observations()
 ```
 与截至该时间的isaaclab中rsl_rl下的play.py文件保持一致。
+
+## isaaclab中actions元素索引对应的具体关节
+
+![1](/unitree_rl_lab/z_image/actions00-15.jpeg )
+![1](/unitree_rl_lab/z_image/actions16-28.jpeg )

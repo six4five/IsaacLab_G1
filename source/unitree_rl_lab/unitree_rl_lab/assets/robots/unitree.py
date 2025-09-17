@@ -27,7 +27,7 @@ class UnitreeArticulationCfg(ArticulationCfg):
     soft_joint_pos_limit_factor = 0.9
 
 
-UNITREE_MODEL_DIR = "/home/neuro/IsaacLab_G1/unitree_rl_lab/unitree_model"
+UNITREE_MODEL_DIR = "/home/neuro/IsaacLab_g1/unitree_rl_lab/unitree_model"
 
 UNITREE_GO2_CFG = UnitreeArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
