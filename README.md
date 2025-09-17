@@ -56,5 +56,5 @@ make
 
 ## isaaclab中actions元素索引对应的具体关节
 
-![1](/unitree_rl_lab/z_image/actions00-15.jpeg )
-![1](/unitree_rl_lab/z_image/actions16-28.jpeg )
+![1](./z_image/actions00-15.jpeg )
+![1](./z_image/actions16-28.jpeg )
