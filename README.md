@@ -27,7 +27,8 @@ obs = env.get_observations()
 ## 在实机上运行官网底层控制实例
 安装完unitree_sdk2后，按照应用开发-[快速开发](https://support.unitree.com/home/zh/G1_developer/quick_development)的教程进行。要使用网线连接电脑主机与机器人脖子后面，连接之后，给机器人开机后再修改网络配置。
 
-按照官网教程走到最后，发现unitree_sdk2/build下根本没有bin文件夹。参考[该经验贴](https://henchat.net/unitree-go2-sdk-trouble-solution/)，**仅**作出如下调整：
+### 如果最开始是克隆官方的[unitree_sdk2](https://github.com/unitreerobotics/unitree_sdk2.git)
+按照官网教程走到最后，可能会发现unitree_sdk2/build下根本没有bin文件夹。参考[该经验贴](https://henchat.net/unitree-go2-sdk-trouble-solution/)，**仅**作出如下调整：
 ```python
 将unitree_sdk2/thirdparty/include/ddscxx/dds中的文件全部复制到
 unitree_sdk2/thirdparty/include/dds里（即合并两文件夹），
@@ -52,7 +53,11 @@ make
 ```
 最后重新运行官网应用开发-[快速开发](https://support.unitree.com/home/zh/G1_developer/quick_development)页面的最下方代码块，注意network_interface_name要替换为具体的网卡名。
 
-成功的效果就是机器人的脚踝一直晃来晃去。
+### 如果最开始克隆的是仓库[unitree_sdk2_20250909](https://github.com/six4five/unitree_sdk2_20250909.git)
+该仓库已作出上述修改，按照官方教程执行make，build文件夹下会正常有bin文件夹，按照官网应用开发-[快速开发](https://support.unitree.com/home/zh/G1_developer/quick_development)走就行了。cd到目录的时候要注意文件夹的名字。
+
+
+成功的效果就是机器人的脚踝一直动，双脚一直晃来晃去。
 
 ## isaaclab中actions元素索引对应的具体关节
 
