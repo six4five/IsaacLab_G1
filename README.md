@@ -63,3 +63,5 @@ make
 
 ![1](./z_image/actions00-15.jpeg )
 ![1](./z_image/actions16-28.jpeg )
+
+实机关节点击顺序见官方文档底层运动开发-[关节电机顺序](https://support.unitree.com/home/zh/G1_developer/joint_motor_sequence)
